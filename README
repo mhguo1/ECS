@@ -6,3 +6,6 @@ git clone https://github.com/macarthur-lab/clinvar.git
 #Parse and subset ClinVar data
 python subset_clinvar.py clinvar_subset_table.txt
 
+#Generate carrier frequencies
+Rscript sum_AF.R
+
