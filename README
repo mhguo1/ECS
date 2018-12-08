@@ -1,5 +1,7 @@
 Below, we describe the code used in Guo MH and Gregg AR. "Estimating yields of prenatal carrier screening and implications for design of expanded carrier screening panels." [provisionally accepted at Genetics in Medicine]. 2018
 
+Python v2.7 and R v3.1 were used throughout.
+
 #Download parsed ClinVar data:
 git clone https://github.com/macarthur-lab/clinvar.git
 
@@ -8,4 +10,7 @@ python subset_clinvar.py clinvar_subset_table.txt
 
 #Generate carrier frequencies
 Rscript sum_AF.R
+
+#Generate plots
+Rscript plot.R
 
