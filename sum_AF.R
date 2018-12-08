@@ -3,7 +3,7 @@ dat$SNP<-paste(dat$chrom, dat$pos, dat$ref, dat$alt, sep=":")
 dat$AF_POPMAX<-as.numeric(dat$AF_POPMAX)
 
 #Subset to severe recessive genes
-severe<-read.delim("wasserman_gene_list.txt", header=F, stringsAsFactors = F, sep="\t")
+severe<-read.delim("severe_recessive_gene_list.txt", header=F, stringsAsFactors = F, sep="\t")
 dat<-subset(dat, symbol%in%severe$V1 & symbol!="ABCC6")
 
 #Calculate carrier rates for each variant 
