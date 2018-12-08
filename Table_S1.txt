@@ -1,0 +1,20 @@
+chrom	pos	ref	alt	symbol	molecular_consequence	conditions
+1	53668099	C	T	CPT2	NM_000098.2:c.338C>T:missense variant	Carnitine palmitoyltransferase II deficiency, myopathic, stress-induced;CARNITINE PALMITOYLTRANSFERASE II DEFICIENCY, LETHAL NEONATAL;Carnitine palmitoyltransferase II deficiency;Carnitine Palmitoyltransferase II Deficiency;Abnormality of the musculature of the limbs;Abnormality of muscle physiology;Carnitine palmitoyltransferase II deficiency, infantile;Encephalopathy, acute, infection-induced, 4, susceptibility to
+1	179544941	G	A	NPHS2	NM_014625.3:c.59C>T:missense variant	Nephrotic syndrome, idiopathic, steroid-resistant;NEPHROTIC SYNDROME, TYPE 2
+3	15686693	G	C	BTD	NM_000060.4:c.1330G>C:missense variant	Biotinidase deficiency
+4	5758026	G	A	EVC	NM_153717.2:c.1500G>A:missense variant	Ellis-van Creveld Syndromd
+5	70220935	C	G	SMN1	NM_000344.3:c.5C>G:missense variant	Spinal muscular atrophy, type II;Kugelberg-Welander disease
+6	32008500	G	A	CYP21A2	NM_000500.7:c.1174G>A:missense variant	21-hydroxylase deficiency
+6	32008783	C	T	CYP21A2	NM_000500.7:c.1360C>T:missense variant	21-hydroxylase deficiency;21-Hydroxylase-Deficient Congenital Adrenal Hyperplasia
+7	117188852	T	C	CFTR	NM_000492.3:c.1367T>C:missense variant	Cystic fibrosis
+7	117232086	G	A	CFTR	NM_000492.3:c.1865G>A:missense variant	Cystic fibrosis
+7	117267556	T	C	CFTR	NM_000492.3:c.3469-20T>C:intron variant	Cystic fibrosis
+8	19813529	A	G	LPL	NM_000237.2:c.953A>G:missense variant	Hyperlipidemia, familial combined
+9	97912356	G	A	FANCC	NM_000136.2:c.535C>T:nonsense	Fanconi anemia, complementation group C
+11	61161435	T	C	TMEM216	NM_001173990.2:c.216T>C:synonymous variant	Joubert syndrome 2
+13	20763612	C	T	GJB3	NM_004004.5:c.109G>T:missense variant	Nonsyndromic hearing loss and deafness
+13	20763620	A	G	GJB2	NM_004004.5:c.101T>G:missense variant	Nonsyndromic hearing loss and deafness
+14	88407873	T	G	GALC	NM_000153.3:c.1700A>C:missense variant	Galactosylceramide beta-galactosidase deficiency;
+15	40707653	C	T	IVD	NM_002225.3:c.941C>T:missense variant	Isovaleryl-CoA dehydrogenase deficiency;Isovaleric Acidemia;
+15	80472526	C	T	FAH	NM_000137.2:c.1021C>T:missense variant	Fumarylacetoacetase pseudodeficiency;Tyrosinemia type I
+17	78090815	G	C	GAA	NM_000152.4:c.2238G>C:missense variant	Glycogen storage disease, type II
