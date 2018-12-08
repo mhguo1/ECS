@@ -1,3 +1,4 @@
+#NOTE, this is probably the least elegant code you'll ever see, but hopefully it makes sense
 library(RColorBrewer)
 library(reshape2)
 library(ggplot2)
@@ -47,7 +48,7 @@ for(p in 1:length(pops)){
   gcr.all.dat10<-rbind(gcr.all.dat10, temp)
 }
 
-pdf(paste("GCR_bypop_top10.dotplot.pdf", sep=""), width=21, useDingbats=FALSE)
+pdf("GCR_bypop_top10.dotplot.pdf", width=21, useDingbats=FALSE)
 plot(x=seq(1,nrow(gcr.all.dat10)), y=gcr.all.dat10$CR, pch=16, cex=2, cex.lab=1.8, cex.axis=1.4, col=gcr.all.dat10$POP_COLOR, xaxt="n", xlab="", ylab="Gene Carrier Rate (GCR)", ylim=c(0, round(max(dat_01$MAX),2)))
 axis(side=1, at=seq(1,nrow(gcr.all.dat10)), labels=gcr.all.dat10$POP_GENE, las=2, cex.axis=1.4)
 for(i in seq(0.01, 0.12, 0.01)){
