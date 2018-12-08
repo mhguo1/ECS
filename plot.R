@@ -1,6 +1,6 @@
-library("RColorBrewer")
+library(RColorBrewer)
 library(reshape2)
-library("ggplot2")
+library(ggplot2)
 library(scales)
 require(lattice)
 
