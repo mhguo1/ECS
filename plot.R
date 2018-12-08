@@ -11,7 +11,7 @@ cols<-c(cols[1:4], cols[6:7], "gray40")
 cols2<-hue_pal()(4)
 
 #read in data
-dat<-read.delim("/cvar/jhlab/mguo/panels/clinvar_1118/clinvar_subset_summed_table.txt", header=T, stringsAsFactors = F, sep="\t")
+dat<-read.delim("clinvar_subset_summed_table.txt", header=T, stringsAsFactors = F, sep="\t")
 
 #Remove Finnish
 dat<-subset(dat, select=-c(FIN, ALL))
